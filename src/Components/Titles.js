@@ -7,10 +7,11 @@ class Titles extends React.Component {
         return (
 
             <div>
-
+                
                 <h1 className="title-container__title">Väder i Städer </h1>
                 <p className="title-container__subtitle"> Här hittar du väder i städer  </p>
             </div>
+            
         )
     }
 }
