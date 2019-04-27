@@ -8,14 +8,14 @@
 
  .wrapper {
   background: linear-gradient(to right, #70bef4, #066ab0);
-  height: 285vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
  .main {
-  height:200vh;
+  height:100vh;
   background:#fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   width: 80%;
@@ -23,7 +23,7 @@
 }
 
  .title-container {
-  height: 75vh;
+  height: 50vh;
   background: url("vackertvader.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
@@ -33,14 +33,14 @@
   color: rgb(11, 3, 82);
 }
 
- .title-container__title {
+.title-container__title {
   font-size: 50px;
   letter-spacing: 2px;
   line-height: 1.3;
   font-family: 'Roboto Slab', serif;
 }
 
- .title-container__subtitle {
+.title-container__subtitle {
   font-style: italic;
   font-size: 25px;
   font-weight: 100;
@@ -56,7 +56,7 @@
   padding-left: 50px;
 }
 
- input[type="text"] {
+input[type="text"] {
   background-color: transparent;
   border: 0;
   border-bottom: solid 2px #f16051;
@@ -70,8 +70,8 @@
   font-size: 20px;
 }
 
- input[type="text"] { 
-    outline: none;
+input[type="text"] { 
+  outline: none;
 }
 
 input:-webkit-autofill {
@@ -97,7 +97,7 @@ input:-webkit-autofill {
   outline: none;
 }
 
- .weather__info {
+.weather__info {
   width: 60%;
   font-size: 20px;
   font-weight: 200;
@@ -111,11 +111,11 @@ input:-webkit-autofill {
   font-weight: 400;
 }
 
- .weather__key:last-child {
+.weather__key:last-child {
   border: 0;
 }
 
- .weather__value {
+.weather__value {
   color: #fff;
   font-weight: 200;
 }

@@ -21,7 +21,7 @@ class App extends React.Component{
    const city = e.target.elements.city.value;
    const country = e.target.elements.country.value;
    e.preventDefault();   
-   const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${Api_Key}`);
+   const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&appid=${Api_Key}`);
    const response = await api_call.json();
    console.log(response);
    if(city && country){
@@ -52,7 +52,7 @@ class App extends React.Component{
                <div className="col-xs-5 title-container">
                <Titles />
                </div>
-               <div className="col-xs-7 title-container">
+               <div className="col-xs-7 title-container"> 
                <Form loadWeather={this.getWeather} />
                  <Weather
                    temperature={this.state.temperature}

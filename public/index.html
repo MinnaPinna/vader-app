@@ -33,6 +33,20 @@
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <div id="root"></div>
 
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCb3Uoiwa5KmdeOYkQ1qu3k6JVvuF4DqWU",
+        authDomain: "vader-app.firebaseapp.com",
+        databaseURL: "https://vader-app.firebaseio.com",
+        projectId: "vader-app",
+        storageBucket: "vader-app.appspot.com",
+        messagingSenderId: "27990631386"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
     <script type="text/babel">
         ReactDOM.render(
           <App />, 
