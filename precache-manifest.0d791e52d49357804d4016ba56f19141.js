@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/MinnaPinna/vader-app/static/js/runtime~main.a219a225.js"
   },
   {
-    "revision": "8c365d3eaef5940c18f9",
-    "url": "/MinnaPinna/vader-app/static/js/2.f1a28516.chunk.js"
+    "revision": "8995ed65ce443e708012",
+    "url": "/MinnaPinna/vader-app/static/js/2.f6b90c5d.chunk.js"
   },
   {
     "revision": "8d93b572a56f8a22b855cb7c0bfeb3f4",
     "url": "/MinnaPinna/vader-app/static/media/vackertvader.8d93b572.jpg"
   },
   {
-    "revision": "defb8057152d920b87ec422f73b97f8c",
+    "revision": "0daf279252f8497543caea3ceaf56cc4",
     "url": "/MinnaPinna/vader-app/index.html"
   }
 ];

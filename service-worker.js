@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MinnaPinna/vader-app/precache-manifest.992b0cc64049f41487aa6dab6a1f6dae.js"
+  "/MinnaPinna/vader-app/precache-manifest.0d791e52d49357804d4016ba56f19141.js"
 );
 
 workbox.clientsClaim();
