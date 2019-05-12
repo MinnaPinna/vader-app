@@ -1,0 +1,34 @@
+[debug] [2019-05-11T13:36:35.377Z] ----------------------------------------------------------------------
+[debug] [2019-05-11T13:36:35.380Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:https://github.com/MinnaPinna/vader-app
+[debug] [2019-05-11T13:36:35.380Z] CLI Version:   6.9.2
+[debug] [2019-05-11T13:36:35.381Z] Platform:      darwin
+[debug] [2019-05-11T13:36:35.381Z] Node Version:  v10.15.3
+[debug] [2019-05-11T13:36:35.382Z] Time:          Sat May 11 2019 15:36:35 GMT+0200 (GMT+02:00)
+[debug] [2019-05-11T13:36:35.382Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-11T13:36:35.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-11T13:36:35.402Z] > authorizing via signed-in user
+[debug] [2019-05-11T13:36:35.402Z] [iam] checking project vader-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-05-11T13:36:35.404Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-11T13:36:35.405Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-11T13:36:35.809Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-11T13:36:35.829Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vader-app:testIamPermissions  
+
+[debug] [2019-05-11T13:36:37.014Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-11T13:36:37.016Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vader-app  
+ 
+[debug] [2019-05-11T13:36:37.563Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'vader-app'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vader-app/overview
+[debug] [2019-05-11T13:36:39.910Z] TypeError: Cannot read property 'deploys' of undefined
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:88:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
