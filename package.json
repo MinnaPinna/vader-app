@@ -1,6 +1,6 @@
 {
   "name": "vader-app",
-  "homepage": "https://github.com/MinnaPinna/vader-app",
+  "homepage": "https://vader-app.firebaseapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-plugin-promise": "^4.1.1"
+  }
 }
