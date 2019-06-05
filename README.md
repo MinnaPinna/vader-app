@@ -1,3 +1,7 @@
+Jag har tagit fram en väderapp som visar aktuellt väder i städer. Eftersom dess API är hämtad från 
+Openweathermap så behöver man skriva söktexten på engelska. Jag har arbetat själv med appen, som kan ses här https://vader-app.firebaseapp.com
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
